@@ -1,0 +1,22 @@
+footer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  color: var(--colorGrisSemiOscuro);
+  text-align: center;
+}
+
+.footer-icono {
+  margin-bottom: 10px;
+  font-size: 2em;
+  color: var(--colorCeleste);
+}
+
+.footer-descripcion {
+  margin-bottom: 40px;
+}
+
+.copyright {
+  margin-bottom: 10px;
+}

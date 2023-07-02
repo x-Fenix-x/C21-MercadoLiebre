@@ -1,10 +1,11 @@
 :root {
-  --tipografiaGeneral: 'Roboto', sans-serif;
+  --tipografiaGeneral: "Roboto", sans-serif;
   --colorAmarillo: #eac926;
-  --colorAzul: #03264c;
+  --colorAzul: #0044aa;
   --colorCeleste: #1259c3;
   --colorGrisOscuro: #666;
   --colorGrisClaro: #ebebeb;
+  --colorGrisSemiOscuro: #a8b3b7;
   --colorVerde: #39b54a;
 }
 

@@ -1,7 +1,7 @@
 {
   "name": "mercadoliebre",
-  "version": "1.0.0",
-  "description": "Estructura HTML del Proyecto Mercado Liebre.",
+  "version": "2.0.0",
+  "description": "Proyecto Mercado Liebre con CSS.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
