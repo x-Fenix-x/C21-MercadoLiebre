@@ -1,0 +1,20 @@
+:root {
+  --tipografiaGeneral: 'Roboto', sans-serif;
+  --colorAmarillo: #eac926;
+  --colorAzul: #03264c;
+  --colorCeleste: #1259c3;
+  --colorGrisOscuro: #666;
+  --colorGrisClaro: #ebebeb;
+  --colorVerde: #39b54a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--tipografiaGeneral);
+  font-size: 12px;
+}

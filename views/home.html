@@ -5,18 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <script src="https://kit.fontawesome.com/d6f3583109.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
 </head>
 
-<body>
+<body class="home">
   <header>
-    <img src="/img/logo-mercado-liebre.svg" alt="LogoML">
-    <form>
-      <input type="text" name="search" placeholder="Buscar productos">
-      <input type="submit" value="Buscar">
+    <div class="logo-container">
+      <a href="/"><img src="/img/logo-mercado-liebre.svg" alt="LogoML"></a>
+    </div>
+    <form class="buscar-container">
+      <input type="text" name="search" placeholder="Buscar productos, marcas">
+      <button type="submit" class="icono-buscar">
+        <i class="fas fa-search"></i>
+      </button>
     </form>
-    <p>Comprá en cuotas y sin tarjeta de crédito</p>
-    <nav>
-      <div>
+    <div class="header-mensaje">
+      <p><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+    </div>
+    <nav class="header-vertical">
+      <div class="link-sitio">
         <ul>
           <li><a href="#">Ofertas</a></li>
           <li><a href="#">Tiendas Oficiales</a></li>
@@ -26,14 +35,20 @@
       </div>
       <div>
         <ul>
-          <li><a href="#">Creá tu cuenta</a></li>
-          <li><a href="#">Ingresá</a></li>
-          <li><a href="#">Mis compras</a></li>
+          <li><a href="#">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
+          <li><a href="#">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+          <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
         </ul>
+      </div>
+      <div class="burger-menu">
+        <i class="fa-solid fa-bars"></i>
       </div>
     </nav>
   </header>
   <main>
+    <div class="home-banner">
+      <img src="/img/img-home-banner.jpg" alt="banner-ML">
+    </div>
     <section>
       <h2>Basado en tu última visita</h2>
       <article>

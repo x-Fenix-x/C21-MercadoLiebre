@@ -1,0 +1,90 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+  background-color: var(--colorAmarillo);
+  width: 100%;
+  height: 80vh;
+}
+
+.logo-container {
+  width: 40%;
+  height: auto;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+.buscar-container {
+  width: 40%;
+  height: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+button {
+  margin-top: 1.5px;
+  margin-bottom: 20px;
+}
+
+.header-mensaje {
+  width: 50%;
+  position: relative;
+}
+
+.header-mensaje p {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 35px;
+  white-space: nowrap;
+}
+
+.header-vertical {
+  margin-top: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.link-sitio {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.fa-solid,
+.fa-regular {
+  margin-left: 5px;
+}
+
+.burger-menu {
+  position: relative;
+  background-color: var(--colorAzul);
+  width: 36px;
+  height: 36px;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+.fa-bars {
+  position: absolute;
+  color: var(--colorGrisClaro);
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+/* MAIN */
+
+main {
+  width: 100%;
+}
+
+.home-banner img {
+  width: 100%;
+}
