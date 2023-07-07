@@ -1,11 +1,7 @@
 # Mercado Liebre
 
-## Agregando estilos
+## Diseño adaptativo
 
-En esta parte del proyecto se trabaja con CSS para darle estilos a Mercado Liebre.
-
-### Home de Mercado Liebre
-
-![Texto alternativo](/public/img/mercadoliebre-movil-inicio.png)
+En esta parte del proyecto a los estilos hechos en CSS de la parte 2 de Mercado Liebre se le suma que dicho diseño sea adaptativo para que funcione en distintos dispositivos.
 
 ### Autor: R. Vallejos
