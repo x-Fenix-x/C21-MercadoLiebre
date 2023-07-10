@@ -1,58 +1,59 @@
-body {
+body.home {
   width: 100%;
   min-height: 100vh;
 }
 
-main {
+.main {
   width: 100%;
   text-align: center;
 }
 
-.home-banner img {
+.banner__img {
   width: 100%;
   display: block;
 }
 
-.home-seccion h1{
-  padding: 15px 0;
-  font-size: 24px;
-}
-
-.home-seccion h2 {
-  margin-bottom: 10px;
-  font-size: 24px;
-}
-
-.home-seccion {
+.main-section {
   width: 100%;
   margin: 0 auto;
   padding-bottom: 10px;
   background-color: var(--colorGrisClaro);
 }
 
-.home-article {
+.main-section h1 {
+  padding: 15px 0;
+  font-size: 24px;
+}
+
+.main-section h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.section-article {
   margin: 0 15px;
   background-color: rgb(255, 255, 255);
 }
 
-.home-article:not(:last-child) {
+.section-article:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.titulo-descripcion {
+.section-article__descripcion,
+.footer-section__descripcion {
   font-size: 16px;
   color: var(--colorGrisOscuro);
 }
 
-article img {
+.section-article__img {
   width: 80%;
 }
 
-.descuento {
+.section-article__descuento {
   font-size: 16px;
   color: var(--colorVerde);
 }
 
-.precio {
+.section-article__precio {
   font-size: 18px;
 }
