@@ -1,20 +1,29 @@
 .footer {
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  color: var(--colorGrisSemiOscuro);
   text-align: center;
+  color: var(--colorGrisSemiOscuro);
+  background-color: rgb(255, 255, 255);
 }
 
 .footer-section__icono {
+  margin-top: 10px;
   margin-bottom: 10px;
   font-size: 2em;
   color: var(--colorCeleste);
 }
 
 .footer-section {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 40px;
+}
+
+.footer-section__descripcion {
+  font-size: 16px;
+  color: var(--colorGrisOscuro);
 }
 
 .footer__copyright {

@@ -11,10 +11,10 @@
 }
 
 .header-form__buscador {
-  width: 40%;
+  width: 70%;
   height: 20px;
   margin-left: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .header-form__button {
@@ -25,13 +25,11 @@
 /* Mensaje y menú vertical */
 
 .header-mensaje {
-  position: relative;
-  width: 50%;
+  width: 100%;
+  text-align: center;
 }
 
 .header-mensaje__parrafo {
-  position: absolute;
-  margin-left: 35px;
   margin-top: 5px;
   white-space: nowrap;
 }
@@ -41,8 +39,11 @@
 }
 
 .header-nav__menu {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  display: none;
+}
+
+.header-nav__lista {
+  list-style-type: none;
 }
 
 .header-nav__link {
@@ -61,10 +62,26 @@
 }
 
 .header-burger__icono {
-  margin: 25px auto;
+  margin-bottom: 20px;
   padding: 10px;
   font-size: 20px;
   border-radius: 5px;
   color: var(--colorGrisClaro);
   background-color: var(--colorAzul);
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+  /* HEADER */
+  .header-nav__menu {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .header-burger__menu {
+    display: none;
+  }
 }
