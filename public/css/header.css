@@ -42,10 +42,6 @@
   display: none;
 }
 
-.header-nav__lista {
-  list-style-type: none;
-}
-
 .header-nav__link {
   text-decoration: none;
 }
