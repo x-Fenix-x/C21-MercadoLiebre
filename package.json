@@ -1,7 +1,7 @@
 {
   "name": "mercadoliebre",
-  "version": "3.0.0",
-  "description": "Mercado Liebre con Responsive Web Design.",
+  "version": "4.0.0",
+  "description": "Se agrega Flexbox a Mercado Liebre.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

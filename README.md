@@ -1,7 +1,7 @@
 # Mercado Liebre
 
-## Diseño adaptativo
+## Flexbox
 
-Se reestructura el código CSS con la metodología BEM y se agrega que el diseño sea adaptativo para que funcione en distintos dispositivos.
+Se agrega Flexbox a Mercado Liebre, sumado a las tecnologías que ya se vienen trabajando que son node.js y el módulo de express.
 
 ### Autor: R. Vallejos
