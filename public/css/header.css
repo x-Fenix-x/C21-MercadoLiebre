@@ -183,13 +183,13 @@
     display: flex;
     white-space: nowrap;
     margin-top: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   .header-nav__menu2 {
     display: flex;
-    padding: 20px 20px;
-    margin-left: 70px;
+    padding: 20px 30px;
+    margin-left: 50px;
   }
 
   .header-nav__link {
