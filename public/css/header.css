@@ -188,8 +188,8 @@
 
   .header-nav__menu2 {
     display: flex;
-    padding: 20px 30px;
-    margin-left: 100px;
+    padding: 20px 20px;
+    margin-left: 70px;
   }
 
   .header-nav__link {
