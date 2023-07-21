@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-@import "./general.css";
-@import "./footer.css";
-@import "./home.css";
-@import "./header.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import './general.css';
+@import './footer.css';
+@import './home.css';
+@import './header.css';
+@import './forms.css';
+@import './buttons.css';
