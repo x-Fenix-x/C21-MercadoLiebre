@@ -52,3 +52,11 @@
   border: 1px solid #000000;
   border-radius: 2px;
 }
+
+.form-contenedor__label a{
+  color: #0000ff;
+}
+
+.form-contenedor__label a:hover{
+  color: #267cf4
+}
