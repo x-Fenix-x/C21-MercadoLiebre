@@ -1,7 +1,7 @@
 {
   "name": "mercadoliebre",
-  "version": "5.0.0",
-  "description": "Formularios de registro y login en Mercado Liebre.",
+  "version": "6.0.0",
+  "description": "Animaciones y transiciones en Mercado Liebre.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
