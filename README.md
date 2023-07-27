@@ -1,11 +1,7 @@
 # Mercado Liebre
 
-## Formularios
+## Animaciones y transiciones
 
-Se agrega los formularios de registro y login a Mercado Liebre.
-
-<p align="center">
-  <img src="/mocks/mobile.gif" alt="Texto alternativo">
-</p>
+Se agrega animaciones y transiciones a Mercado Liebre.
 
 ### Autor: R. Vallejos

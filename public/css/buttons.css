@@ -8,12 +8,12 @@
 }
 
 .button__enviar:hover {
-  background-color: var(--colorCeleste);
+  background-color: #0022AA;
   color: #ffffff;
 }
 
 .button__borrar:hover {
-  background-color: #e2540e;
-  color: #ffffff;
+  background-color: #eac926;
+  color: #000000;
 }
 
