@@ -1,7 +1,7 @@
 {
   "name": "mercadoliebre",
   "version": "6.0.0",
-  "description": "Animaciones y transiciones en Mercado Liebre.",
+  "description": "Animaciones, transiciones, y sección ayuda en Mercado Liebre.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

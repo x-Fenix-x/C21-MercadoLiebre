@@ -24,32 +24,30 @@
         </div>
         <div class="header-mensaje">
             <p class="header-mensaje__parrafo"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin
-                tarjeta de crédito
-            </p>
+                tarjeta
+                de crédito</p>
+        </div>
+        <div class="header-burger__menu">
+            <button onclick='document.querySelector(".header-nav").classList.toggle("showMenu")'>
+                <i class="fa-solid fa-bars header-burger__icono"></i>
+            </button>
         </div>
         <div class="header-lista__container">
             <nav class="header-nav">
-                <div class="header-nav__menu">
-                    <ul class="header-nav__lista">
-                        <li><a class="header-nav__link" href="#">Ofertas</a></li>
-                        <li><a class="header-nav__link" href="#">Tiendas Oficiales</a></li>
-                        <li><a class="header-nav__link" href="#">Vender</a></li>
-                        <li><a class="header-nav__link" href="#">Ayuda</a></li>
-                    </ul>
-                </div>
-                <div class="header-nav__menu2">
-                    <ul class="header-nav__lista">
-                        <li><a class="header-nav__link" href="/register">Creá tu cuenta</a><i
-                                class="fa-regular fa-id-card header-nav__icono"></i></li>
-                        <li><a class="header-nav__link" href="/login">Ingresá</a><i
-                                class="fa-solid fa-right-to-bracket header-nav__icono"></i></li>
-                        <li><a class="header-nav__link" href="#">Mis compras</a><i
-                                class="fa-solid fa-basket-shopping header-nav__icono"></i></li>
-                    </ul>
-                </div>
-                <div class="header-burger__menu">
-                    <i class="fa-solid fa-bars header-burger__icono"></i>
-                </div>
+                <ul class="header-nav__lista">
+                    <li><a class="header-nav__link" href="#">Ofertas</a></li>
+                    <li><a class="header-nav__link" href="#">Tiendas Oficiales</a></li>
+                    <li><a class="header-nav__link" href="#">Vender</a></li>
+                    <li><a class="header-nav__link" href="/ayuda">Ayuda</a></li>
+                </ul>
+                <ul class="header-nav__user">
+                    <li><a class="header-nav__link" href="/register">Creá tu cuenta</a><i
+                            class="fa-regular fa-id-card header-nav__icono"></i></li>
+                    <li><a class="header-nav__link" href="/login">Ingresá</a><i
+                            class="fa-solid fa-right-to-bracket header-nav__icono"></i></li>
+                    <li><a class="header-nav__link" href="#">Mis compras</a><i
+                            class="fa-solid fa-basket-shopping header-nav__icono"></i></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -60,29 +58,31 @@
                 <fieldset class="form-contenedor">
                     <legend class="form-contenedor__tittle">Tus Datos</legend>
                     <label class="form-contenedor__label" for="nombre">Nombre</label>
-                    <input class="form-contenedor__input" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre"
-                        required>
+                    <input class="form-contenedor__input" type="text" name="nombre" id="nombre"
+                        placeholder="Ingresa tu nombre" required>
                     <label class="form-contenedor__label" for="apellido">Apellido</label>
                     <input class="form-contenedor__input" type="text" name="apellido" id="apellido"
                         placeholder="Ingresa tu apellido" required>
                     <label class="form-contenedor__label" for="usuario">Nombre de usuario</label>
-                    <input class="form-contenedor__input" type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+                    <input class="form-contenedor__input" type="text" name="usuario" id="usuario" placeholder="Usuario"
+                        required>
                     <label class="form-contenedor__label" for="password">Contraseña</label>
-                    <input class="form-contenedor__input" type="password" name="password" id="password" placeholder="Contraseña"
-                        required>
+                    <input class="form-contenedor__input" type="password" name="password" id="password"
+                        placeholder="Contraseña" required>
                     <label class="form-contenedor__label" for="password2">Confirmar contraseña</label>
-                    <input class="form-contenedor__input" type="password" id="password2" placeholder="Repita la contraseña"
-                        required>
+                    <input class="form-contenedor__input" type="password" id="password2"
+                        placeholder="Repita la contraseña" required>
                     <label class="form-contenedor__label" for="email">Email</label>
-                    <input class="form-contenedor__input" type="email" name="email" id="email" placeholder="Ingresa tu email"
-                        required>
+                    <input class="form-contenedor__input" type="email" name="email" id="email"
+                        placeholder="Ingresa tu email" required>
                     <label class="form-contenedor__label" for="date">Fecha de nacimiento</label>
                     <input class="form-contenedor__input" type="date" name="date" id="date" required>
                     <label class="form-contenedor__label" for="domicilio">Domicilio</label>
-                    <input class="form-contenedor__input" type="text" name="domicilio" placeholder="Domicilio" id="domicilio"
-                        required>
+                    <input class="form-contenedor__input" type="text" name="domicilio" placeholder="Domicilio"
+                        id="domicilio" required>
                     <label class="form-contenedor__label" for="fotoUsuario">Foto de usuario</label>
-                    <input class="form-contenedor__input" type="file" name="fotoUsuario" id="fotoUsuario" accept=".jpg, .png">
+                    <input class="form-contenedor__input" type="file" name="fotoUsuario" id="fotoUsuario"
+                        accept=".jpg, .png">
                 </fieldset>
                 <fieldset class="form-contenedor">
                     <legend class="form-contenedor__tittle">Perfil de usuario</legend>
@@ -98,24 +98,24 @@
                 <fieldset class="form-contenedor">
                     <legend class="form-contenedor__tittle">Categorías de interés</legend>
                     <label class="form-contenedor__label">
-                        <input class="form-contenedor__input" type="checkbox" name="intereses" value="tecnología">
-                        Tecnología
+                        <input class="form-contenedor__input" type="checkbox" name="intereses" value="programación">
+                        Programación
                     </label>
                     <label class="form-contenedor__label">
-                        <input class="form-contenedor__input" type="checkbox" name="intereses" value="moda">
-                        Moda
+                        <input class="form-contenedor__input" type="checkbox" name="intereses" value="literatura">
+                        Literatura
                     </label>
                     <label class="form-contenedor__label">
-                        <input class="form-contenedor__input" type="checkbox" name="intereses" value="hogar">
-                        Hogar
-                    </label>
-                    <label class="form-contenedor__label">
-                        <input class="form-contenedor__input" type="checkbox" name="intereses" value="jugueteria">
-                        Juguetería
+                        <input class="form-contenedor__input" type="checkbox" name="intereses" value="música">
+                        Música
                     </label>
                     <label class="form-contenedor__label">
                         <input class="form-contenedor__input" type="checkbox" name="intereses" value="vidaSana">
                         Vida sana
+                    </label>
+                    <label class="form-contenedor__label">
+                        <input class="form-contenedor__input" type="checkbox" name="intereses" value="arte">
+                        Arte
                     </label>
                 </fieldset>
                 <div>
@@ -123,6 +123,9 @@
                     <button class="button button__borrar" type="reset">Borrar</button>
                 </div>
             </form>
+        </div>
+        <div>
+            <label class="form-contenedor__label">¿Tienes usuario?<span><a href="/login"> Ingresa a tu cuenta</a></span></label>
         </div>
     </main>
     <footer class="footer">
