@@ -5,5 +5,6 @@
 ## [Mercado Liebre 3 - RESPONSIVE WEB DESIGN](https://github.com/x-Fenix-x/MercadoLiebre/tree/responsiveDesign)
 ## [Mercado Liebre 4 - FLEXBOX](https://github.com/x-Fenix-x/MercadoLiebre/tree/flexbox)
 ## [Mercado Liebre 5 - FORMULARIOS](https://github.com/x-Fenix-x/MercadoLiebre/tree/formularios)
+## [Mercado Liebre 6 - ANIMACIONES](https://github.com/x-Fenix-x/MercadoLiebre/tree/animaciones)
 
 ### Autor: R. Vallejos
