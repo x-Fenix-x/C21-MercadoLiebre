@@ -1,11 +1,12 @@
 {
   "name": "mercadoliebre",
-  "version": "6.0.0",
-  "description": "Animaciones, transiciones, y sección ayuda en Mercado Liebre.",
+  "version": "7.0.0",
+  "description": "Mercado Liebre.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
