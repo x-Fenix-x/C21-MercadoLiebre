@@ -1,0 +1,19 @@
+.button {
+  margin: 15px 20px;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.button__enviar:hover {
+  background-color: #0022AA;
+  color: #ffffff;
+}
+
+.button__borrar:hover {
+  background-color: #eac926;
+  color: #000000;
+}
+

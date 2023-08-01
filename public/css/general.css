@@ -1,0 +1,30 @@
+:root {
+  --tipografiaGeneral: 'Roboto', sans-serif;
+  --colorAmarillo: #eac926;
+  --colorAzul: #0044aa;
+  --colorCeleste: #1259c3;
+  --colorGrisOscuro: #7C7C7C;
+  --colorGrisClaro: #ebebeb;
+  --colorGrisSemiOscuro: #a8b3b7;
+  --colorVerde: #39b54a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+body {
+  font-size: 12px;
+  font-family: var(--tipografiaGeneral);
+}

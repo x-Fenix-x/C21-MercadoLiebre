@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre | Ayuda</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/305c544fde.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-box">
+            <a class="header__logo" href="/"><img src="/img/logo-mercado-liebre.svg" alt="LogoML"></a>
+            <form class="header-form__search-container">
+                <div class="header-form__buscador">
+                    <input id="header-form__input-search" type="text" name="search"
+                        placeholder="Buscar productos, marcas">
+                    <button class="header-form__button" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+        <div class="header-mensaje">
+            <p class="header-mensaje__parrafo"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin
+                tarjeta
+                de crédito</p>
+        </div>
+        <div class="header-burger__menu">
+            <button onclick='document.querySelector(".header-nav").classList.toggle("showMenu")'>
+                <i class="fa-solid fa-bars header-burger__icono"></i>
+            </button>
+        </div>
+        <div class="header-lista__container">
+            <nav class="header-nav">
+                <ul class="header-nav__lista">
+                    <li><a class="header-nav__link" href="#">Ofertas</a></li>
+                    <li><a class="header-nav__link" href="#">Tiendas Oficiales</a></li>
+                    <li><a class="header-nav__link" href="#">Vender</a></li>
+                    <li><a class="header-nav__link" href="#">Ayuda</a></li>
+                </ul>
+                <ul class="header-nav__user">
+                    <li><a class="header-nav__link" href="/register">Creá tu cuenta</a><i
+                            class="fa-regular fa-id-card header-nav__icono"></i></li>
+                    <li><a class="header-nav__link" href="/login">Ingresá</a><i
+                            class="fa-solid fa-right-to-bracket header-nav__icono"></i></li>
+                    <li><a class="header-nav__link" href="#">Mis compras</a><i
+                            class="fa-solid fa-basket-shopping header-nav__icono"></i></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="ayuda-main">
+        <section>
+            <h1 class="ayuda-titulos ayuda-section__titulo">¿Con qué podemos ayudarte?</h1>
+            <div>
+                <form>
+                    <input class="ayuda-form__buscar" type="search" name="search" id="search" placeholder="¿Qué deseas buscar?">
+                    <button class="boton-ayuda button__enviar" type="submit">Buscar</button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <h2 class="ayuda-titulos">Compras</h2>
+            <article>
+                <div class="ayuda-section-article">
+                    <a href="#">
+                        <h3>Administrar y cancelar compras</h3>
+                        <p>Pagar, seguir envíos, modificar, reclamar o cancelar compras.</p>
+                    </a>
+                </div>
+                <div class="ayuda-section-article">
+                    <a href="#">
+                        <h3>Devoluciones y reembolsos</h3>
+                        <p>Devolver un producto o consultar por reintegros de dinero de una compra.<p>
+                    </a>
+                </div>
+                <div class="ayuda-section-article">
+                    <a href="#">
+                        <h3>Preguntas frecuentes sobre compras</h3>
+                    </a>
+                </div>
+            </article>
+            <h2 class="ayuda-titulos">Ventas</h2>
+            <article>
+                <div class="ayuda-section-article">
+                    <a href="#">
+                        <h3>Gestionar ventas y publicaciones</h3>
+                        <p>Ventas, cobros, envíos, reclamos, devoluciones, publicaciones y reputación.</p>
+                    </a>
+                </div>
+                <div class="ayuda-section-article">
+                    <a href="#">
+                        <h3>Preguntas frecuentes sobre ventas</h3>
+                    </a>
+                </div>
+            </article>
+            <h2 class="ayuda-titulos">Ayuda sobre tu cuenta</h2>
+            <article>
+                <div class="ayuda-section-article">
+                    <a href="#">
+                        <p>Configuración de mi cuenta</p>
+                    </a>
+                </div>
+                <div class="ayuda-section-article">
+                    <a href="#">
+                        <p>Seguridad</p>
+                    </a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-section">
+            <i class="fa-solid footer-section__icono fa-credit-card"></i>
+            <h4 class="footer-section__descripcion">Pagá con tarjeta o en efectivo Con Mercado</h4>
+            <p>
+                Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre
+                es seguro!
+            </p>
+        </div>
+        <div class="footer-section">
+            <i class="fa-solid footer-section__icono fa-gift"></i>
+            <h4 class="footer-section__descripcion">Envío gratis desde $ 2.500</h4>
+            <p>
+                Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es
+                un beneficio de Mercado Puntos.
+            </p>
+        </div>
+        <div class="footer-section">
+            <i class="fa-solid footer-section__icono fa-user-shield"></i>
+            <h4 class="footer-section__descripcion">Seguridad, de principio a fin</h4>
+            <p>
+                ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás
+                siempre protegid@
+            </p>
+        </div>
+        <div class="footer__copyright">
+            <p>Copyright © 1999-2023 MercadoLiebre S.R.L.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
