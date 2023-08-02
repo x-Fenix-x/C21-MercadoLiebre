@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre | Ayuda</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/305c544fde.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-box">
+            <a class="header__logo" href="/"><img src="/img/logo-mercado-liebre.svg" alt="LogoML"></a>
+            <form class="header-form__search-container">
+                <div class="header-form__buscador">
+                    <input id="header-form__input-search" type="text" name="search"
+                        placeholder="Buscar productos, marcas">
+                    <button class="header-form__button" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+        <div class="header-mensaje">
+            <p class="header-mensaje__parrafo"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin
+                tarjeta
+                de crédito</p>
+        </div>
+        <div class="header-burger__menu">
+            <button onclick='document.querySelector(".header-nav").classList.toggle("showMenu")'>
+                <i class="fa-solid fa-bars header-burger__icono"></i>
+            </button>
+        </div>
+        <div class="header-lista__container">
+            <nav class="header-nav">
+                <ul class="header-nav__lista">
+                    <li><a class="header-nav__link" href="#">Ofertas</a></li>
+                    <li><a class="header-nav__link" href="/tiendas-oficiales">Tiendas Oficiales</a></li>
+                    <li><a class="header-nav__link" href="#">Vender</a></li>
+                    <li><a class="header-nav__link" href="/ayuda">Ayuda</a></li>
+                </ul>
+                <ul class="header-nav__user">
+                    <li><a class="header-nav__link" href="/register">Creá tu cuenta</a><i
+                            class="fa-regular fa-id-card header-nav__icono"></i></li>
+                    <li><a class="header-nav__link" href="/login">Ingresá</a><i
+                            class="fa-solid fa-right-to-bracket header-nav__icono"></i></li>
+                    <li><a class="header-nav__link" href="#">Mis compras</a><i
+                            class="fa-solid fa-basket-shopping header-nav__icono"></i></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <img class="banner__img" src="/img/banner-tiendas.png" alt="banner-ML">
+    </div>
+    <main class="tienda-main">
+        <section class="tienda-section__form">
+            <div class="tienda-main-form__contenedor">
+                <form>
+                    <input class="tienda-form__buscar" type="search" name="search" id="search"
+                        placeholder="Buscar tienda">
+                </form>
+            </div>
+        </section>
+        <h2 class="tienda-titulos">Tiendas destacadas en <span class="tienda-titulos__span">Hogar, Muebles y
+                Jardín</span></h2>
+        <section class="tienda-section">
+            <article class="tienda-section-article">
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/hogar-muebles-jardin/01-logo.png" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/hogar-muebles-jardin/02-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/hogar-muebles-jardin/03-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/hogar-muebles-jardin/04-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/hogar-muebles-jardin/05-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/hogar-muebles-jardin/06-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/hogar-muebles-jardin/07-logo.png" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/hogar-muebles-jardin/08-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <a href="#">
+                    <div class="ver-todas">
+                        <p class="ver-todas__titulo">Ver todas</p>
+                        <i class="fa-solid fa-chevron-right flecha"></i>
+                    </div>
+                </a>
+            </article>
+        </section>
+        <h2 class="tienda-titulos">Tiendas destacadas en <span class="tienda-titulos__span">Electrodomésticos y Aires
+                Ac.</span></h2>
+         <section class="tienda-section">
+            <article class="tienda-section-article">
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/electrodomesticos/01-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/electrodomesticos/02-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/electrodomesticos/03-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/electrodomesticos/04-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/electrodomesticos/05-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/electrodomesticos/06-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/electrodomesticos/07-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/electrodomesticos/08-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <a href="#">
+                    <div class="ver-todas">
+                        <p class="ver-todas__titulo">Ver todas</p>
+                        <i class="fa-solid fa-chevron-right flecha"></i>
+                    </div>
+                </a>
+            </article>
+        </section>
+        <h2 class="tienda-titulos">Tiendas destacadas en <span class="tienda-titulos__span">Accesorios para
+                Vehículos</span></h2>
+         <section class="tienda-section">
+            <article class="tienda-section-article">
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/accesorios-vehiculos/01-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/accesorios-vehiculos/02-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/accesorios-vehiculos/03-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/accesorios-vehiculos/04-logo.png" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/accesorios-vehiculos/05-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/accesorios-vehiculos/06-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/accesorios-vehiculos/07-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/accesorios-vehiculos/08-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <a href="#">
+                    <div class="ver-todas">
+                        <p class="ver-todas__titulo">Ver todas</p>
+                        <i class="fa-solid fa-chevron-right flecha"></i>
+                    </div>
+                </a>
+            </article>
+        </section>
+        <h2 class="tienda-titulos">Tiendas destacadas en <span class="tienda-titulos__span">Computación</span></h2>
+         <section class="tienda-section">
+            <article class="tienda-section-article">
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/computacion/01-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/computacion/02-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/computacion/03-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/computacion/04-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/computacion/05-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/computacion/06-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/img/tiendas/computacion/07-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                    <a href="#">
+                        <img src="/img/tiendas/computacion/08-logo.jpg" alt="logo-marca">
+                        <p>Marca empresa</p>
+                    </a>
+                </div>
+                <a href="#">
+                    <div class="ver-todas">
+                        <p class="ver-todas__titulo">Ver todas</p>
+                        <i class="fa-solid fa-chevron-right flecha"></i>
+                    </div>
+                </a>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-section">
+            <i class="fa-solid footer-section__icono fa-credit-card"></i>
+            <h4 class="footer-section__descripcion">Pagá con tarjeta o en efectivo Con Mercado</h4>
+            <p>
+                Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre
+                es seguro!
+            </p>
+        </div>
+        <div class="footer-section">
+            <i class="fa-solid footer-section__icono fa-gift"></i>
+            <h4 class="footer-section__descripcion">Envío gratis desde $ 2.500</h4>
+            <p>
+                Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es
+                un beneficio de Mercado Puntos.
+            </p>
+        </div>
+        <div class="footer-section">
+            <i class="fa-solid footer-section__icono fa-user-shield"></i>
+            <h4 class="footer-section__descripcion">Seguridad, de principio a fin</h4>
+            <p>
+                ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás
+                siempre protegid@
+            </p>
+        </div>
+        <div class="footer__copyright">
+            <p>Copyright © 1999-2023 MercadoLiebre S.R.L.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
