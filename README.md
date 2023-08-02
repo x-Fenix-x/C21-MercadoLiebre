@@ -5,16 +5,15 @@
 
 Tener Node.js instalado.
 
-- Clona este repositorio o [descarga](https://github.com/x-Fenix-x/MercadoLiebre/archive/refs/heads/master.zip) los archivos como zip.
+- Clona este repositorio o descarga los archivos como zip.
 - Abre una terminal y navega al directorio del proyecto.
 - Ejecuta el siguiente comando para instalar las dependencias: `npm i` o `npm install`
 
 ## Uso
 - Inicializar la app:
-`npm start o npm run dev`
+`npm start` o `npm run dev`
 - Accede desde el navegador a:
 `http://localhost:3030`
-
 
 ## Etapas del proyecto
 
