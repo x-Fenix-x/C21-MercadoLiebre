@@ -33,6 +33,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: #ebebeb;
 }
 
 .tienda-titulos {
@@ -63,7 +64,7 @@
   flex-wrap: wrap;
 }
 
-.tienda-section-article div a{
+.tienda-section-article div a {
   flex: 0 0 50%;
 }
 
@@ -113,3 +114,32 @@
   padding: 10px;
 }
 
+/* TABLET */
+
+@media (min-width: 600px) {
+  .tienda-banner__img {
+    height: auto;
+  }
+}
+
+/* DESKTOP */
+
+@media (min-width: 1024px) {
+  .tienda-section-article div a {
+    flex: 0 0 25%;
+  }
+
+  /* MARCAS */
+
+  .tienda-section-article div a p {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.5s, height 0.5s;
+  }
+
+  .tienda-section-article div a:hover p {
+    height: 30px;
+    opacity: 1;
+  }
+}

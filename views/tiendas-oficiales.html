@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado Liebre | Ayuda</title>
+    <title>Tiendas Oficiales</title>
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/305c544fde.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
@@ -55,18 +55,18 @@
         <img class="tienda-banner__img" src="/img/banner-tiendas.png" alt="banner-ML">
     </div>
     <main class="tienda-main">
-        <section class="tienda-section__form">
+        <div class="tienda-section__form">
             <div class="tienda-main-form__contenedor">
                 <form>
                     <input class="tienda-form__buscar" type="search" name="search" id="search"
                         placeholder="Buscar tienda">
                 </form>
             </div>
-        </section>
-        <h2 class="tienda-titulos">Tiendas destacadas en <span class="tienda-titulos__span">Hogar, Muebles y
-                Jardín</span></h2>
+        </div>
         <section class="tienda-section">
-            <article class="tienda-section-article">
+            <h2 class="tienda-titulos" id="hogar-muebles-jardín">Tiendas destacadas en <span class="tienda-titulos__span">Hogar, Muebles y
+                    Jardín</span></h2>
+            <div class="tienda-section-article" aria-labelledby="hogar-muebles-jardín">
                 <div>
                     <a href="#">
                         <img src="/img/tiendas/hogar-muebles-jardin/01-logo.png" alt="logo-marca">
@@ -109,12 +109,13 @@
                         <i class="fa-solid fa-chevron-right flecha"></i>
                     </div>
                 </a>
-            </article>
+            </div>
         </section>
-        <h2 class="tienda-titulos">Tiendas destacadas en <span class="tienda-titulos__span">Electrodomésticos y Aires
-                Ac.</span></h2>
-         <section class="tienda-section">
-            <article class="tienda-section-article">
+        <section class="tienda-section">
+            <h2 class="tienda-titulos" id="electrodomesticos">Tiendas destacadas en <span class="tienda-titulos__span">Electrodomésticos y
+                    Aires
+                    Ac.</span></h2>
+            <div class="tienda-section-article" aria-labelledby="electrodomesticos">
                 <div>
                     <a href="#">
                         <img src="/img/tiendas/electrodomesticos/01-logo.jpg" alt="logo-marca">
@@ -124,8 +125,6 @@
                         <img src="/img/tiendas/electrodomesticos/02-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
                     </a>
-                </div>
-                <div>
                     <a href="#">
                         <img src="/img/tiendas/electrodomesticos/03-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
@@ -144,8 +143,6 @@
                         <img src="/img/tiendas/electrodomesticos/06-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
                     </a>
-                </div>
-                <div>
                     <a href="#">
                         <img src="/img/tiendas/electrodomesticos/07-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
@@ -161,12 +158,12 @@
                         <i class="fa-solid fa-chevron-right flecha"></i>
                     </div>
                 </a>
-            </article>
+            </div>
         </section>
-        <h2 class="tienda-titulos">Tiendas destacadas en <span class="tienda-titulos__span">Accesorios para
-                Vehículos</span></h2>
-         <section class="tienda-section">
-            <article class="tienda-section-article">
+        <section class="tienda-section">
+            <h2 class="tienda-titulos" id="accesorios-vehiculos">Tiendas destacadas en <span class="tienda-titulos__span">Accesorios para
+                    Vehículos</span></h2>
+            <div class="tienda-section-article" aria-labelledby="accesorios-vehiculos">
                 <div>
                     <a href="#">
                         <img src="/img/tiendas/accesorios-vehiculos/01-logo.jpg" alt="logo-marca">
@@ -176,8 +173,6 @@
                         <img src="/img/tiendas/accesorios-vehiculos/02-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
                     </a>
-                </div>
-                <div>
                     <a href="#">
                         <img src="/img/tiendas/accesorios-vehiculos/03-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
@@ -186,8 +181,6 @@
                         <img src="/img/tiendas/accesorios-vehiculos/04-logo.png" alt="logo-marca">
                         <p>Marca empresa</p>
                     </a>
-                </div>
-                <div>
                     <a href="#">
                         <img src="/img/tiendas/accesorios-vehiculos/05-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
@@ -196,8 +189,6 @@
                         <img src="/img/tiendas/accesorios-vehiculos/06-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
                     </a>
-                </div>
-                <div>
                     <a href="#">
                         <img src="/img/tiendas/accesorios-vehiculos/07-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
@@ -213,11 +204,11 @@
                         <i class="fa-solid fa-chevron-right flecha"></i>
                     </div>
                 </a>
-            </article>
+            </div>
         </section>
-        <h2 class="tienda-titulos">Tiendas destacadas en <span class="tienda-titulos__span">Computación</span></h2>
-         <section class="tienda-section">
-            <article class="tienda-section-article">
+        <section class="tienda-section">
+            <h2 class="tienda-titulos" id="computacion">Tiendas destacadas en <span class="tienda-titulos__span">Computación</span></h2>
+            <div class="tienda-section-article" aria-labelledby="computacion">
                 <div>
                     <a href="#">
                         <img src="/img/tiendas/computacion/01-logo.jpg" alt="logo-marca">
@@ -227,8 +218,6 @@
                         <img src="/img/tiendas/computacion/02-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
                     </a>
-                </div>
-                <div>
                     <a href="#">
                         <img src="/img/tiendas/computacion/03-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
@@ -237,8 +226,6 @@
                         <img src="/img/tiendas/computacion/04-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
                     </a>
-                </div>
-                <div>
                     <a href="#">
                         <img src="/img/tiendas/computacion/05-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
@@ -247,8 +234,6 @@
                         <img src="/img/tiendas/computacion/06-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
                     </a>
-                </div>
-                <div>
                     <a href="#">
                         <img src="/img/tiendas/computacion/07-logo.jpg" alt="logo-marca">
                         <p>Marca empresa</p>
@@ -264,7 +249,7 @@
                         <i class="fa-solid fa-chevron-right flecha"></i>
                     </div>
                 </a>
-            </article>
+            </div>
         </section>
     </main>
     <footer class="footer">
