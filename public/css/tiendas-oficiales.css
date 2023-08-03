@@ -8,17 +8,18 @@
 
 /* BUSCADOR */
 
-.tienda-main-form__contenedor, .tienda-section{
-  width: 88%;
+.tienda-main-form__contenedor,
+.tienda-section {
+  width: 90%;
   margin: 0 auto;
 }
 
-.tienda-section__form{
-  width: 90%;
+.tienda-section__form {
+  width: 100%;
   margin-bottom: 20px;
 }
 
-.tienda-form__buscar{
+.tienda-form__buscar {
   width: 100%;
   padding: 15px;
   border-radius: 5px;
@@ -50,28 +51,41 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   text-align: center;
   box-shadow: 0px 0px 10px #646464;
   border-radius: 10px;
   margin: 20px auto;
 }
 
+.tienda-section-article div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tienda-section-article div a{
+  flex: 0 0 50%;
+}
 
 .tienda-section-article img {
-  width: 100%;
-  padding: 5px;
+  width: 80%;
+  padding: 10px;
 }
 
+.tienda-section-article a {
+  border-left: #ebebeb 1px solid;
+}
 
-.tienda-section-article div:not(:last-child) {
-  display: flex;
+.tienda-section-article a:first-of-type {
+  border-left: none;
+}
+
+.tienda-section-article a:nth-of-type(1n) {
   border-bottom: #ebebeb 1px solid;
-
 }
 
-.tienda-section-article a:not(:last-child) {
-  border-right: #ebebeb 1px solid;
+.tienda-section-article a:nth-child(2n) {
+  border-bottom: #ebebeb 1px solid;
 }
 
 .tienda-section-article p {
@@ -87,7 +101,6 @@
   color: var(--colorCeleste);
   padding: 5px;
   align-items: center;
-
 }
 
 .ver-todas__titulo {
@@ -100,6 +113,3 @@
   padding: 10px;
 }
 
-.tienda-section-article div{
-  padding-right: 0;
-}
