@@ -28,14 +28,14 @@ body.home {
 
 .main-section h1 {
   padding: 15px 0;
-  font-size: 22px;
+  font-size: 1.375rem;
   white-space: nowrap;
   color: var(--colorGrisOscuro);
 }
 
 .main-section h2 {
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 1.375rem;
   color: var(--colorGrisOscuro);
 }
 
@@ -75,7 +75,7 @@ body.home {
   height: 30px;
   display: block;
   padding: 5px;
-  font-size: 16px;
+  font-size: 1rem;
   border: 1px solid #39b54a;
   border-radius: 50%;
   color: var(--colorVerde);
@@ -103,18 +103,18 @@ body.home {
 .section-article__precio {
   width: 30%;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .section-article__descuento {
   width: 70%;
   padding-left: 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--colorVerde);
 }
 
 .section-article__descripcion {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: var(--colorGrisOscuro);
 }
