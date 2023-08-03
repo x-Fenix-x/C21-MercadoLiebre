@@ -30,6 +30,6 @@ Tener Node.js instalado.
 - Construido con Flexbox.
 - Formularios de registro y login.
 - Animaciones y transiciones.
-- Página de ayuda.
+- Página de ayuda & tiendas oficiales.
 
 ### Autor: R. Vallejos
