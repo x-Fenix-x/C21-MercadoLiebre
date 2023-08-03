@@ -111,6 +111,7 @@
 
 .button__burger {
   background-color: transparent;
+  border: none;
 }
 
 .header-burger__menu {
